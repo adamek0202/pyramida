@@ -1,6 +1,7 @@
-let number = 0
+//Pyramida pro Minecraft Education
 player.onChat("run", function (size) {
-    number = size * 2 - 1
+    //Pro díru na vrchu se - změní na +
+    let number = size * 2 - 1
     agent.move(UP, 1)
     for (let index = 0; index < size; index++) {
         for (let index = 0; index < 4; index++) {
